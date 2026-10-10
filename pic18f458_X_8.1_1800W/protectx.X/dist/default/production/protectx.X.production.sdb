@@ -1,90 +1,90 @@
-[p PRO_MODE GLOBOPT AUTOSTATIC LFSROK SPEEDOPT EMI_WORD ]
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
 [d version 1.1 ]
 [d edition pro ]
-[d chip 18F458 ]
+[d chip 18F46K80 ]
 [d frameptr 4065 ]
-"3 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/adc.h
+"7 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/adc.h
 [v _ADC ADC `(ui  1 e 2 0 ]
-"14
-[v _ADCmeasure ADCmeasure `(v  1 e 1 0 ]
-"32
-[v _SlowControl SlowControl `(v  1 e 1 0 ]
-"5 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
-[v _BandDecode BandDecode `(v  1 e 1 0 ]
 "19
-[v _FreqMeasure FreqMeasure `(uc  1 e 1 0 ]
-"60
-[v _DelayS DelayS `(v  1 e 1 0 ]
-"70
-[v _DelayMs DelayMs `(v  1 e 1 0 ]
-"79
-[v _Beep Beep `(v  1 e 1 0 ]
-"86
-[v _SwitchOFF SwitchOFF `(v  1 e 1 0 ]
-"96
-[v _PTT_ON PTT_ON `(v  1 e 1 0 ]
-"113
-[v _PTT_OFF PTT_OFF `(v  1 e 1 0 ]
-"125
-[v _PTT_read PTT_read `(v  1 e 1 0 ]
-"133
-[v _SetBand SetBand `(v  1 e 1 0 ]
-"145
-[v _FanControl FanControl `(v  1 e 1 0 ]
-"179
-[v _PttHoldControl PttHoldControl `(v  1 e 1 0 ]
-"199
-[v _ProtectCheck ProtectCheck `(v  1 e 1 0 ]
-"2 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/eep.h
-[v _readEEPROM readEEPROM `(uc  1 e 1 0 ]
-"14
-[v _writeEEPROM writeEEPROM `(v  1 e 1 0 ]
-"32
-[v _readEEPROM16 readEEPROM16 `(ui  1 e 2 0 ]
+[v _ADCmeasure ADCmeasure `(v  1 e 1 0 ]
 "39
+[v _SlowControl SlowControl `(v  1 e 1 0 ]
+"10 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
+[v _BandDecode BandDecode `(v  1 e 1 0 ]
+"21
+[v _FreqMeasure FreqMeasure `(uc  1 e 1 0 ]
+"63
+[v _DelayS DelayS `(v  1 e 1 0 ]
+"73
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"82
+[v _Beep Beep `(v  1 e 1 0 ]
+"89
+[v _SwitchOFF SwitchOFF `(v  1 e 1 0 ]
+"98
+[v _PTT_ON PTT_ON `(v  1 e 1 0 ]
+"117
+[v _PTT_OFF PTT_OFF `(v  1 e 1 0 ]
+"129
+[v _PTT_read PTT_read `(v  1 e 1 0 ]
+"137
+[v _SetBand SetBand `(v  1 e 1 0 ]
+"152
+[v _FanControl FanControl `(v  1 e 1 0 ]
+"192
+[v _PttHoldControl PttHoldControl `(v  1 e 1 0 ]
+"213
+[v _ProtectCheck ProtectCheck `(v  1 e 1 0 ]
+"6 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/eep.h
+[v _readEEPROM readEEPROM `(uc  1 e 1 0 ]
+"19
+[v _writeEEPROM writeEEPROM `(v  1 e 1 0 ]
+"41
+[v _readEEPROM16 readEEPROM16 `(ui  1 e 2 0 ]
+"48
 [v _writeEEPROM16 writeEEPROM16 `(v  1 e 1 0 ]
-"47
+"55
 [v _EEsetupRead EEsetupRead `(v  1 e 1 0 ]
-"77
+"86
 [v _EEmbandRead EEmbandRead `(v  1 e 1 0 ]
-"71 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/main.c
+"52 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/main.c
 [v _main main `(v  1 e 1 0 ]
-"6 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/nextion.h
+"10 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/nextion.h
 [v _ConvertNumber ConvertNumber `(v  1 e 1 0 ]
 "24
 [v _CreateBuffTX CreateBuffTX `(v  1 e 1 0 ]
-"40
+"42
 [v _Tramsmitt Tramsmitt `(v  1 e 1 0 ]
-"50
+"53
 [v _SendStatusToLCD SendStatusToLCD `(v  1 e 1 0 ]
-"130
+"138
 [v _ReadStatusFromLCD ReadStatusFromLCD `(v  1 e 1 0 ]
-"194
+"202
 [v _SendUSART SendUSART `(v  1 e 1 0 ]
-"201
+"210
 [v _SetupMode SetupMode `(v  1 e 1 0 ]
-"254
+"264
 [v _waitAckFromLCD waitAckFromLCD `(uc  1 e 1 0 ]
-"283
+"293
 [v _LCDpageSelect LCDpageSelect `(uc  1 e 1 0 ]
-"299
+"308
 [v _LCDversionSend LCDversionSend `(v  1 e 1 0 ]
-"2 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/usart.h
+"6 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/usart.h
 [v _RXstartTIMER RXstartTIMER `(v  1 e 1 0 ]
-"10
+"14
 [v _RXstopTIMER RXstopTIMER `(v  1 e 1 0 ]
 [v i2_RXstopTIMER RXstopTIMER `(v  1 e 1 0 ]
-"17
+"20
 [v _RXrestart RXrestart `(v  1 e 1 0 ]
 [v i2_RXrestart RXrestart `(v  1 e 1 0 ]
-"25
+"28
 [v _RecieveError RecieveError `(v  1 e 1 0 ]
-"45
-[v _isr isr `II(v  1 e 1 0 ]
+"46
+[v _isr isr `IIH(v  1 e 1 0 ]
 "7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fabs.c
-[v _fabs fabs `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
 "62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
 "86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftadd.c
@@ -95,8 +95,6 @@
 [v ___ftge __ftge `(b  1 e 0 0 ]
 "62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 3 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftneg.c
-[v ___ftneg __ftneg `(f  1 e 3 0 ]
 "19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 3 0 ]
 "44 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fttol.c
@@ -105,8 +103,6 @@
 [v ___lltoft __lltoft `(f  1 e 3 0 ]
 "7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwdiv.c
 [v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-"28 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwtoft.c
-[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
 "10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 3 0 ]
 "245
@@ -121,301 +117,21 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul64.c
 [v ___omul __omul `(ul  1 e 4 0 ]
-"53 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/main.c
-[v _frwd frwd `VNEui  1 e 2 0 ]
-[v _refl refl `VNEui  1 e 2 0 ]
-[v _volt volt `VNEui  1 e 2 0 ]
-[v _volt_view volt_view `VNEui  1 e 2 0 ]
-[v _curr curr `VNEui  1 e 2 0 ]
-[v _temp temp `VNEui  1 e 2 0 ]
-[v _freq freq `VNEui  1 e 2 0 ]
-"54
-[v _volt_old volt_old `VNEui  1 e 2 0 ]
-[v _temp_old temp_old `VNEui  1 e 2 0 ]
-[v _fpeak fpeak `VNEui  1 e 2 0 ]
-[v _rpeak rpeak `VNEui  1 e 2 0 ]
-[v _cpeak cpeak `VNEui  1 e 2 0 ]
-"55
-[v _fpeak_old fpeak_old `VNEui  1 e 2 0 ]
-[v _rpeak_old rpeak_old `VNEui  1 e 2 0 ]
-[v _cpeak_old cpeak_old `VNEui  1 e 2 0 ]
-"56
-[v _max_pwr max_pwr `VNEui  1 e 2 0 ]
-[v _max_ref max_ref `VNEui  1 e 2 0 ]
-[v _max_volt max_volt `VNEui  1 e 2 0 ]
-[v _max_curr max_curr `VNEui  1 e 2 0 ]
-[v _max_temp max_temp `VNEui  1 e 2 0 ]
-[v _max_tFAN max_tFAN `VNEui  1 e 2 0 ]
-"57
-[v _tempM tempM `VNEui  1 e 2 0 ]
-[v _voltM voltM `VNEui  1 e 2 0 ]
-[v _elpf elpf `VNEui  1 e 2 0 ]
-[v _lpferrP lpferrP `VNEui  1 e 2 0 ]
-[v _lpferrC lpferrC `VNEui  1 e 2 0 ]
-[v _lpferrR lpferrR `VNEui  1 e 2 0 ]
-"58
-[v _frtout frtout `VNEui  1 e 2 0 ]
-[v _cvtout cvtout `VNEui  1 e 2 0 ]
-"59
-[v _ptt ptt `VNEuc  1 e 1 0 ]
-[v _bypass bypass `VNEuc  1 e 1 0 ]
-[v _lcd lcd `VNEuc  1 e 1 0 ]
-[v _reldel reldel `VNEuc  1 e 1 0 ]
-[v _biasdel biasdel `VNEuc  1 e 1 0 ]
-[v _fanptt fanptt `VNEuc  1 e 1 0 ]
-[v _maxf maxf `VNEuc  1 e 1 0 ]
-[v _fan fan `VNEuc  1 e 1 0 ]
-[v _med med `VNEuc  1 e 1 0 ]
-"60
-[v _band band `VNEuc  1 e 1 0 ]
-[v _band_old band_old `VNEuc  1 e 1 0 ]
-[v _bstate bstate `VNEuc  1 e 1 0 ]
-[v _bstate_old bstate_old `VNEuc  1 e 1 0 ]
-[v _err err `VNEuc  1 e 1 0 ]
-[v _err_old err_old `VNEuc  1 e 1 0 ]
-[v _aband aband `VNEuc  1 e 1 0 ]
-"61
-[v _hystT hystT `VNEuc  1 e 1 0 ]
-[v _hystF hystF `VNEuc  1 e 1 0 ]
-[v _beeper beeper `VNEuc  1 e 1 0 ]
-[v _logo logo `VNEuc  1 e 1 0 ]
-[v _sensor sensor `VNEuc  1 e 1 0 ]
-[v _ptt_hold ptt_hold `VNEuc  1 e 1 0 ]
-[v _ptt_htimer ptt_htimer `VNEuc  1 e 1 0 ]
-"62
-[v _buffRX buffRX `VNE[10]uc  1 e 10 0 ]
-[v _buffTX buffTX `VNE[64]uc  1 e 64 0 ]
-[v _rxb rxb `VNEuc  1 e 1 0 ]
-[v _txb txb `VNEuc  1 e 1 0 ]
-[v _rx_end rx_end `VNEuc  1 e 1 0 ]
-[v _tx_len tx_len `VNEuc  1 e 1 0 ]
-"63
-[v _tmp tmp `VNEul  1 e 4 0 ]
-"10241 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f458.h
-[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
-[s S330 . 1 `uc 1 RA0 1 0 :1:0 
-`uc 1 RA1 1 0 :1:1 
-`uc 1 RA2 1 0 :1:2 
-`uc 1 RA3 1 0 :1:3 
-`uc 1 RA4 1 0 :1:4 
-`uc 1 RA5 1 0 :1:5 
-`uc 1 RA6 1 0 :1:6 
-]
-"10290
-[s S338 . 1 `uc 1 AN0 1 0 :1:0 
-`uc 1 AN1 1 0 :1:1 
-`uc 1 AN2 1 0 :1:2 
-`uc 1 AN3 1 0 :1:3 
-`uc 1 . 1 0 :1:4 
-`uc 1 AN4 1 0 :1:5 
-`uc 1 OSC2 1 0 :1:6 
-]
-[s S346 . 1 `uc 1 . 1 0 :5:0 
-`uc 1 NOT_SS 1 0 :1:5 
-]
-[s S349 . 1 `uc 1 CVREF 1 0 :1:0 
-`uc 1 . 1 0 :1:1 
-`uc 1 VREFM 1 0 :1:2 
-`uc 1 VREFP 1 0 :1:3 
-`uc 1 T0CKI 1 0 :1:4 
-`uc 1 nSS 1 0 :1:5 
-`uc 1 CLKO 1 0 :1:6 
-]
-[s S357 . 1 `uc 1 . 1 0 :5:0 
-`uc 1 SS 1 0 :1:5 
-]
-[s S360 . 1 `uc 1 . 1 0 :5:0 
-`uc 1 LVDIN 1 0 :1:5 
-]
-[s S363 . 1 `uc 1 ULPWUIN 1 0 :1:0 
-]
-[u S365 . 1 `S330 1 . 1 0 `S338 1 . 1 0 `S346 1 . 1 0 `S349 1 . 1 0 `S357 1 . 1 0 `S360 1 . 1 0 `S363 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES365  1 e 1 @3968 ]
-"10410
-[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-"10526
-[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
-[s S192 . 1 `uc 1 RC0 1 0 :1:0 
-`uc 1 RC1 1 0 :1:1 
-`uc 1 RC2 1 0 :1:2 
-`uc 1 RC3 1 0 :1:3 
-`uc 1 RC4 1 0 :1:4 
-`uc 1 RC5 1 0 :1:5 
-`uc 1 RC6 1 0 :1:6 
-`uc 1 RC7 1 0 :1:7 
-]
-"10572
-[s S201 . 1 `uc 1 T1OSO 1 0 :1:0 
-`uc 1 T1OSI 1 0 :1:1 
-`uc 1 . 1 0 :1:2 
-`uc 1 SCK 1 0 :1:3 
-`uc 1 SDI 1 0 :1:4 
-`uc 1 SDO 1 0 :1:5 
-`uc 1 TX 1 0 :1:6 
-`uc 1 RX 1 0 :1:7 
-]
-[s S210 . 1 `uc 1 T1CKI 1 0 :1:0 
-`uc 1 . 1 0 :1:1 
-`uc 1 CCP1 1 0 :1:2 
-`uc 1 SCL 1 0 :1:3 
-`uc 1 SDA 1 0 :1:4 
-`uc 1 . 1 0 :1:5 
-`uc 1 CK 1 0 :1:6 
-`uc 1 DT 1 0 :1:7 
-]
-[s S219 . 1 `uc 1 . 1 0 :1:0 
-`uc 1 CCP2 1 0 :1:1 
-`uc 1 PA1 1 0 :1:2 
-]
-[s S223 . 1 `uc 1 . 1 0 :1:0 
-`uc 1 PA2 1 0 :1:1 
-]
-[u S226 . 1 `S192 1 . 1 0 `S201 1 . 1 0 `S210 1 . 1 0 `S219 1 . 1 0 `S223 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES226  1 e 1 @3970 ]
-"10697
-[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-"10877
-[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
-"11035
-[v _LATA LATA `VEuc  1 e 1 @3977 ]
-"11135
-[v _LATB LATB `VEuc  1 e 1 @3978 ]
-[s S469 . 1 `uc 1 LATB0 1 0 :1:0 
-`uc 1 LATB1 1 0 :1:1 
-`uc 1 LATB2 1 0 :1:2 
-`uc 1 LATB3 1 0 :1:3 
-`uc 1 LATB4 1 0 :1:4 
-`uc 1 LATB5 1 0 :1:5 
-`uc 1 LATB6 1 0 :1:6 
-`uc 1 LATB7 1 0 :1:7 
-]
-"11162
-[s S478 . 1 `uc 1 LB0 1 0 :1:0 
-`uc 1 LB1 1 0 :1:1 
-`uc 1 LB2 1 0 :1:2 
-`uc 1 LB3 1 0 :1:3 
-`uc 1 LB4 1 0 :1:4 
-`uc 1 LB5 1 0 :1:5 
-`uc 1 LB6 1 0 :1:6 
-`uc 1 LB7 1 0 :1:7 
-]
-[u S487 . 1 `S469 1 . 1 0 `S478 1 . 1 0 ]
-[v _LATBbits LATBbits `VES487  1 e 1 @3978 ]
-"11247
-[v _LATC LATC `VEuc  1 e 1 @3979 ]
-[s S409 . 1 `uc 1 LATC0 1 0 :1:0 
-`uc 1 LATC1 1 0 :1:1 
-`uc 1 LATC2 1 0 :1:2 
-`uc 1 LATC3 1 0 :1:3 
-`uc 1 LATC4 1 0 :1:4 
-`uc 1 LATC5 1 0 :1:5 
-`uc 1 LATC6 1 0 :1:6 
-`uc 1 LATC7 1 0 :1:7 
-]
-"11274
-[s S418 . 1 `uc 1 LC0 1 0 :1:0 
-`uc 1 LC1 1 0 :1:1 
-`uc 1 LC2 1 0 :1:2 
-`uc 1 LC3 1 0 :1:3 
-`uc 1 LC4 1 0 :1:4 
-`uc 1 LC5 1 0 :1:5 
-`uc 1 LC6 1 0 :1:6 
-`uc 1 LC7 1 0 :1:7 
-]
-[u S427 . 1 `S409 1 . 1 0 `S418 1 . 1 0 ]
-[v _LATCbits LATCbits `VES427  1 e 1 @3979 ]
-"11359
-[v _LATD LATD `VEuc  1 e 1 @3980 ]
-[s S509 . 1 `uc 1 LATD0 1 0 :1:0 
-`uc 1 LATD1 1 0 :1:1 
-`uc 1 LATD2 1 0 :1:2 
-`uc 1 LATD3 1 0 :1:3 
-`uc 1 LATD4 1 0 :1:4 
-`uc 1 LATD5 1 0 :1:5 
-`uc 1 LATD6 1 0 :1:6 
-`uc 1 LATD7 1 0 :1:7 
-]
-"11386
-[s S518 . 1 `uc 1 LD0 1 0 :1:0 
-`uc 1 LD1 1 0 :1:1 
-`uc 1 LD2 1 0 :1:2 
-`uc 1 LD3 1 0 :1:3 
-`uc 1 LD4 1 0 :1:4 
-`uc 1 LD5 1 0 :1:5 
-`uc 1 LD6 1 0 :1:6 
-`uc 1 LD7 1 0 :1:7 
-]
-[u S527 . 1 `S509 1 . 1 0 `S518 1 . 1 0 ]
-[v _LATDbits LATDbits `VES527  1 e 1 @3980 ]
-"11471
-[v _LATE LATE `VEuc  1 e 1 @3981 ]
-[s S449 . 1 `uc 1 LATE0 1 0 :1:0 
-`uc 1 LATE1 1 0 :1:1 
-`uc 1 LATE2 1 0 :1:2 
-]
-"11488
-[s S453 . 1 `uc 1 LE0 1 0 :1:0 
-`uc 1 LE1 1 0 :1:1 
-`uc 1 LE2 1 0 :1:2 
-]
-[u S457 . 1 `S449 1 . 1 0 `S453 1 . 1 0 ]
-[v _LATEbits LATEbits `VES457  1 e 1 @3981 ]
-"11523
-[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
-"11721
-[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"11943
-[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-"12165
-[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-"12387
-[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S98 . 1 `uc 1 TMR1IE 1 0 :1:0 
-`uc 1 TMR2IE 1 0 :1:1 
-`uc 1 CCP1IE 1 0 :1:2 
-`uc 1 SSPIE 1 0 :1:3 
-`uc 1 TXIE 1 0 :1:4 
-`uc 1 RCIE 1 0 :1:5 
-`uc 1 ADIE 1 0 :1:6 
-`uc 1 PSPIE 1 0 :1:7 
-]
-"12601
-[s S107 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 TX1IE 1 0 :1:4 
-`uc 1 RC1IE 1 0 :1:5 
-]
-[u S111 . 1 `S98 1 . 1 0 `S107 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES111  1 e 1 @3997 ]
-[s S68 . 1 `uc 1 TMR1IF 1 0 :1:0 
-`uc 1 TMR2IF 1 0 :1:1 
-`uc 1 CCP1IF 1 0 :1:2 
-`uc 1 SSPIF 1 0 :1:3 
-`uc 1 TXIF 1 0 :1:4 
-`uc 1 RCIF 1 0 :1:5 
-`uc 1 ADIF 1 0 :1:6 
-`uc 1 PSPIF 1 0 :1:7 
-]
-"12678
-[s S77 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 TX1IF 1 0 :1:4 
-`uc 1 RC1IF 1 0 :1:5 
-]
-[u S81 . 1 `S68 1 . 1 0 `S77 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES81  1 e 1 @3998 ]
-[s S633 . 1 `uc 1 ECCP1IF 1 0 :1:0 
-`uc 1 TMR3IF 1 0 :1:1 
-`uc 1 LVDIF 1 0 :1:2 
-`uc 1 BCLIF 1 0 :1:3 
-`uc 1 EEIF 1 0 :1:4 
-`uc 1 . 1 0 :1:5 
-`uc 1 CMIF 1 0 :1:6 
-]
-"12877
-[u S641 . 1 `S633 1 . 1 0 ]
-[v _PIR2bits PIR2bits `VES641  1 e 1 @4001 ]
-"13284
-[v _EECON1 EECON1 `VEuc  1 e 1 @4006 ]
-[s S26 . 1 `uc 1 RD 1 0 :1:0 
+"26974 C:/Program Files (x86)/Microchip/xc8/v2.00/pic/include\pic18f46k80.h
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"27074
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+"27186
+[v _CM2CON CM2CON `VEuc  1 e 1 @3934 ]
+"27438
+[v _CM1CON CM1CON `VEuc  1 e 1 @3935 ]
+"29473
+[v _EEDATA EEDATA `VEuc  1 e 1 @3955 ]
+"29493
+[v _EEADR EEADR `VEuc  1 e 1 @3956 ]
+"29909
+[v _EECON2 EECON2 `VEuc  1 e 1 @3966 ]
+[s S25 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 WREN 1 0 :1:2 
 `uc 1 WRERR 1 0 :1:3 
@@ -424,21 +140,211 @@
 `uc 1 CFGS 1 0 :1:6 
 `uc 1 EEPGD 1 0 :1:7 
 ]
-"13305
-[s S35 . 1 `uc 1 . 1 0 :6:0 
+"29950
+[s S34 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 EEFS 1 0 :1:6 
 ]
-[u S38 . 1 `S26 1 . 1 0 `S35 1 . 1 0 ]
-[v _EECON1bits EECON1bits `VES38  1 e 1 @4006 ]
-"13350
-[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
-"13357
-[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
-"13364
-[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
-"13371
-[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
-[s S128 . 1 `uc 1 RX9D 1 0 :1:0 
+[u S37 . 1 `S25 1 . 1 0 `S34 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES37  1 e 1 @3967 ]
+"29995
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S263 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"30171
+[s S272 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S276 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S279 . 1 `S263 1 . 1 0 `S272 1 . 1 0 `S276 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES279  1 e 1 @3970 ]
+"30492
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30594
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S374 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"30621
+[s S383 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S392 . 1 `S374 1 . 1 0 `S383 1 . 1 0 ]
+[v _LATBbits LATBbits `VES392  1 e 1 @3978 ]
+"30706
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S314 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"30733
+[s S323 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S332 . 1 `S314 1 . 1 0 `S323 1 . 1 0 ]
+[v _LATCbits LATCbits `VES332  1 e 1 @3979 ]
+"30818
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S414 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"30845
+[s S423 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S432 . 1 `S414 1 . 1 0 `S423 1 . 1 0 ]
+[v _LATDbits LATDbits `VES432  1 e 1 @3980 ]
+"30930
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S354 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"30947
+[s S358 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S362 . 1 `S354 1 . 1 0 `S358 1 . 1 0 ]
+[v _LATEbits LATEbits `VES362  1 e 1 @3981 ]
+"31088
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"31145
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"31207
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"31269
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"31331
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S146 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"31630
+[s S155 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S159 . 1 `S146 1 . 1 0 `S155 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES159  1 e 1 @3997 ]
+[s S116 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"31707
+[s S125 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S129 . 1 `S116 1 . 1 0 `S125 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES129  1 e 1 @3998 ]
+[s S526 . 1 `uc 1 TMR3GIF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"31912
+[s S533 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S536 . 1 `S526 1 . 1 0 `S533 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES536  1 e 1 @4001 ]
+[s S583 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"32393
+[s S592 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S595 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S604 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S609 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+]
+[s S613 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[u S616 . 1 `S583 1 . 1 0 `S592 1 . 1 0 `S595 1 . 1 0 `S604 1 . 1 0 `S609 1 . 1 0 `S613 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES616  1 e 1 @4007 ]
+"32697
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S176 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -447,130 +353,147 @@
 `uc 1 RX9 1 0 :1:6 
 `uc 1 SPEN 1 0 :1:7 
 ]
-"13414
-[s S137 . 1 `uc 1 RCD8 1 0 :1:0 
-`uc 1 . 1 0 :5:1 
+"32752
+[s S185 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S141 . 1 `uc 1 . 1 0 :6:0 
-`uc 1 RC8_9 1 0 :1:6 
-]
-[s S144 . 1 `uc 1 . 1 0 :6:0 
+[s S191 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 NOT_RC8 1 0 :1:6 
 ]
-[s S147 . 1 `uc 1 . 1 0 :6:0 
+[s S194 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 nRC8 1 0 :1:6 
 ]
-[s S150 . 1 `uc 1 . 1 0 :5:0 
+[s S197 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S200 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S209 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[u S153 . 1 `S128 1 . 1 0 `S137 1 . 1 0 `S141 1 . 1 0 `S144 1 . 1 0 `S147 1 . 1 0 `S150 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES153  1 e 1 @4011 ]
-"13595
-[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
-"13863
-[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
-"13875
-[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
-"13887
-[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
-"13899
+[u S212 . 1 `S176 1 . 1 0 `S185 1 . 1 0 `S191 1 . 1 0 `S194 1 . 1 0 `S197 1 . 1 0 `S200 1 . 1 0 `S209 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES212  1 e 1 @4011 ]
+"33035
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"33323
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"33361
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"33399
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"33541
 [v _T3CON T3CON `VEuc  1 e 1 @4017 ]
-"14027
+"33659
 [v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
-"14034
+"33679
 [v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
-"14041
-[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
-"14480
-[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
-"14580
+"34304
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4027 ]
+"34763
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"34834
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
-"14648
-[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
-[s S550 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 GO_NOT_DONE 1 0 :1:2 
+[s S454 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
-"14699
-[s S553 . 1 `uc 1 ADON 1 0 :1:0 
-`uc 1 . 1 0 :1:1 
-`uc 1 GO_nDONE 1 0 :1:2 
-`uc 1 CHS 1 0 :3:3 
-`uc 1 ADCS 1 0 :2:6 
+"34983
+[s S457 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
 ]
-[s S559 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 DONE 1 0 :1:2 
-`uc 1 CHS0 1 0 :1:3 
-`uc 1 CHS1 1 0 :1:4 
-`uc 1 CHS2 1 0 :1:5 
-`uc 1 ADCS0 1 0 :1:6 
-`uc 1 ADCS1 1 0 :1:7 
+"34983
+[s S461 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
 ]
-[s S567 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 GO_DONE 1 0 :1:2 
+"34983
+[s S469 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
 ]
-[s S570 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 GO 1 0 :1:2 
+"34983
+[s S472 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S573 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 NOT_DONE 1 0 :1:2 
+"34983
+[s S475 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
 ]
-[s S576 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 nDONE 1 0 :1:2 
+"34983
+[s S478 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
 ]
-[s S579 . 1 `uc 1 . 1 0 :7:0 
-`uc 1 ADCAL 1 0 :1:7 
+"34983
+[s S481 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
 ]
-[s S582 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 GODONE 1 0 :1:2 
-]
-[u S585 . 1 `S550 1 . 1 0 `S553 1 . 1 0 `S559 1 . 1 0 `S567 1 . 1 0 `S570 1 . 1 0 `S573 1 . 1 0 `S576 1 . 1 0 `S579 1 . 1 0 `S582 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES585  1 e 1 @4034 ]
-"14796
+"34983
+[u S484 . 1 `S454 1 . 1 0 `S457 1 . 1 0 `S461 1 . 1 0 `S469 1 . 1 0 `S472 1 . 1 0 `S475 1 . 1 0 `S478 1 . 1 0 `S481 1 . 1 0 ]
+"34983
+"34983
+[v _ADCON0bits ADCON0bits `VES484  1 e 1 @4034 ]
+"35070
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
-"14803
+"35090
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
-"15213
+"35597
 [v _T2CON T2CON `VEuc  1 e 1 @4042 ]
-"15394
+"35794
 [v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
-"15401
+"35814
 [v _T1CON T1CON `VEuc  1 e 1 @4045 ]
-"15508
-[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
-"15515
+"35923
 [v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
-"15522
+"35943
 [v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
-"15672
+"36116
 [v _WDTCON WDTCON `VEuc  1 e 1 @4049 ]
-"15785
+"36325
 [v _T0CON T0CON `VEuc  1 e 1 @4053 ]
-"15855
+"36395
+"36395
 [v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
-[s S690 . 1 `uc 1 . 1 0 :7:0 
+[s S661 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
-"16253
-[s S693 . 1 `uc 1 RBIP 1 0 :1:0 
-`uc 1 . 1 0 :1:1 
+"37134
+[s S664 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
-`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG3 1 0 :1:3 
 `uc 1 INTEDG2 1 0 :1:4 
 `uc 1 INTEDG1 1 0 :1:5 
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S702 . 1 `uc 1 . 1 0 :2:0 
+"37134
+[s S673 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
 `uc 1 T0IP 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S707 . 1 `S690 1 . 1 0 `S693 1 . 1 0 `S702 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES707  1 e 1 @4081 ]
-"16303
+"37134
+[u S679 . 1 `S661 1 . 1 0 `S664 1 . 1 0 `S673 1 . 1 0 ]
+"37134
+"37134
+[v _INTCON2bits INTCON2bits `VES679  1 e 1 @4081 ]
+"37199
 [v _INTCON INTCON `VEuc  1 e 1 @4082 ]
-[s S267 . 1 `uc 1 RBIF 1 0 :1:0 
+[s S59 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 RBIE 1 0 :1:3 
@@ -579,8 +502,8 @@
 `uc 1 PEIE_GIEL 1 0 :1:6 
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
-"16340
-[s S276 . 1 `uc 1 . 1 0 :1:0 
+"37236
+[s S68 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -589,405 +512,483 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-[s S285 . 1 `uc 1 . 1 0 :6:0 
+"37236
+[s S77 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S289 . 1 `S267 1 . 1 0 `S276 1 . 1 0 `S285 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES289  1 e 1 @4082 ]
-"16630
+"37236
+[u S81 . 1 `S59 1 . 1 0 `S68 1 . 1 0 `S77 1 . 1 0 ]
+"37236
+"37236
+[v _INTCONbits INTCONbits `VES81  1 e 1 @4082 ]
+"37643
 [v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
-"71 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/main.c
+"34 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/main.c
+[v _frwd frwd `VEui  1 e 2 0 ]
+[v _refl refl `VEui  1 e 2 0 ]
+[v _volt volt `VEui  1 e 2 0 ]
+[v _volt_view volt_view `VEui  1 e 2 0 ]
+[v _curr curr `VEui  1 e 2 0 ]
+[v _temp temp `VEui  1 e 2 0 ]
+[v _freq freq `VEui  1 e 2 0 ]
+"35
+[v _volt_old volt_old `VEui  1 e 2 0 ]
+[v _temp_old temp_old `VEui  1 e 2 0 ]
+[v _fpeak fpeak `VEui  1 e 2 0 ]
+[v _rpeak rpeak `VEui  1 e 2 0 ]
+[v _cpeak cpeak `VEui  1 e 2 0 ]
+"36
+[v _fpeak_old fpeak_old `VEui  1 e 2 0 ]
+[v _rpeak_old rpeak_old `VEui  1 e 2 0 ]
+[v _cpeak_old cpeak_old `VEui  1 e 2 0 ]
+"37
+[v _max_pwr max_pwr `VEui  1 e 2 0 ]
+[v _max_ref max_ref `VEui  1 e 2 0 ]
+[v _max_volt max_volt `VEui  1 e 2 0 ]
+[v _max_curr max_curr `VEui  1 e 2 0 ]
+[v _max_temp max_temp `VEui  1 e 2 0 ]
+[v _max_tFAN max_tFAN `VEui  1 e 2 0 ]
+"38
+[v _tempM tempM `VEui  1 e 2 0 ]
+[v _voltM voltM `VEui  1 e 2 0 ]
+[v _elpf elpf `VEui  1 e 2 0 ]
+[v _lpferrP lpferrP `VEui  1 e 2 0 ]
+[v _lpferrC lpferrC `VEui  1 e 2 0 ]
+[v _lpferrR lpferrR `VEui  1 e 2 0 ]
+"39
+[v _frtout frtout `VEui  1 e 2 0 ]
+[v _cvtout cvtout `VEui  1 e 2 0 ]
+"40
+[v _ptt ptt `VEuc  1 e 1 0 ]
+[v _bypass bypass `VEuc  1 e 1 0 ]
+[v _lcd lcd `VEuc  1 e 1 0 ]
+[v _reldel reldel `VEuc  1 e 1 0 ]
+[v _biasdel biasdel `VEuc  1 e 1 0 ]
+[v _fanptt fanptt `VEuc  1 e 1 0 ]
+[v _maxf maxf `VEuc  1 e 1 0 ]
+[v _fan fan `VEuc  1 e 1 0 ]
+[v _med med `VEuc  1 e 1 0 ]
+"41
+[v _band band `VEuc  1 e 1 0 ]
+[v _band_old band_old `VEuc  1 e 1 0 ]
+[v _bstate bstate `VEuc  1 e 1 0 ]
+[v _bstate_old bstate_old `VEuc  1 e 1 0 ]
+[v _err err `VEuc  1 e 1 0 ]
+[v _err_old err_old `VEuc  1 e 1 0 ]
+[v _aband aband `VEuc  1 e 1 0 ]
+"42
+[v _hystT hystT `VEuc  1 e 1 0 ]
+[v _hystF hystF `VEuc  1 e 1 0 ]
+[v _beeper beeper `VEuc  1 e 1 0 ]
+[v _logo logo `VEuc  1 e 1 0 ]
+[v _sensor sensor `VEuc  1 e 1 0 ]
+[v _ptt_hold ptt_hold `VEuc  1 e 1 0 ]
+[v _ptt_htimer ptt_htimer `VEuc  1 e 1 0 ]
+"43
+[v _buffRX buffRX `VE[10]uc  1 e 10 0 ]
+[v _buffTX buffTX `VE[64]uc  1 e 64 0 ]
+[v _rxb rxb `VEuc  1 e 1 0 ]
+[v _txb txb `VEuc  1 e 1 0 ]
+[v _rx_end rx_end `VEuc  1 e 1 0 ]
+[v _tx_len tx_len `VEuc  1 e 1 0 ]
+"44
+[v _tmp tmp `VEul  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"52 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"136
+"133
 } 0
-"32 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/adc.h
+"39 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/adc.h
 [v _SlowControl SlowControl `(v  1 e 1 0 ]
 {
-"55
+"68
 } 0
-"179 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
+"192 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
 [v _PttHoldControl PttHoldControl `(v  1 e 1 0 ]
 {
-"181
+"194
 [v PttHoldControl@t t `uc  1 s 1 t ]
-"193
+"208
 } 0
-"145
+"152
 [v _FanControl FanControl `(v  1 e 1 0 ]
-{
-"177
-} 0
-"50 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/nextion.h
-[v _SendStatusToLCD SendStatusToLCD `(v  1 e 1 0 ]
-{
-"126
-} 0
-"40
-[v _Tramsmitt Tramsmitt `(v  1 e 1 0 ]
-{
-"46
-} 0
-"130
-[v _ReadStatusFromLCD ReadStatusFromLCD `(v  1 e 1 0 ]
 {
 "190
 } 0
-"201
+"53 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/nextion.h
+[v _SendStatusToLCD SendStatusToLCD `(v  1 e 1 0 ]
+{
+"136
+} 0
+"42
+[v _Tramsmitt Tramsmitt `(v  1 e 1 0 ]
+{
+"49
+} 0
+"138
+[v _ReadStatusFromLCD ReadStatusFromLCD `(v  1 e 1 0 ]
+{
+"200
+} 0
+"210
 [v _SetupMode SetupMode `(v  1 e 1 0 ]
 {
-"203
-[v SetupMode@lW lW `ui  1 a 2 33 ]
-[v SetupMode@rW rW `ui  1 a 2 31 ]
-[v SetupMode@pW pW `ui  1 a 2 29 ]
-"204
-[v SetupMode@eadr eadr `uc  1 a 1 35 ]
-"251
+"212
+[v SetupMode@lW lW `ui  1 a 2 40 ]
+[v SetupMode@rW rW `ui  1 a 2 38 ]
+[v SetupMode@pW pW `ui  1 a 2 36 ]
+"213
+[v SetupMode@eadr eadr `uc  1 a 1 42 ]
+"262
 } 0
-"39 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/eep.h
+"48 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/eep.h
 [v _writeEEPROM16 writeEEPROM16 `(v  1 e 1 0 ]
 {
-[v writeEEPROM16@addr addr `ui  1 p 2 7 ]
-[v writeEEPROM16@data data `*.30uc  1 p 1 9 ]
-"43
+[v writeEEPROM16@addr addr `ui  1 p 2 14 ]
+[v writeEEPROM16@data data `*.39uc  1 p 2 16 ]
+"52
 } 0
-"14
+"19
 [v _writeEEPROM writeEEPROM `(v  1 e 1 0 ]
 {
 [v writeEEPROM@address address `uc  1 a 1 wreg ]
-"16
-[v writeEEPROM@INTCON_SAVE INTCON_SAVE `uc  1 a 1 6 ]
-"14
+"21
+[v writeEEPROM@INTCON_SAVE INTCON_SAVE `uc  1 a 1 13 ]
+"19
 [v writeEEPROM@address address `uc  1 a 1 wreg ]
-[v writeEEPROM@data data `uc  1 p 1 4 ]
-"18
-[v writeEEPROM@address address `uc  1 a 1 5 ]
-"30
+[v writeEEPROM@data data `uc  1 p 1 11 ]
+"23
+[v writeEEPROM@address address `uc  1 a 1 12 ]
+"39
 } 0
 "7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwdiv.c
 [v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
 {
 "10
-[v ___lwdiv@quotient quotient `ui  1 a 2 8 ]
+[v ___lwdiv@quotient quotient `ui  1 a 2 15 ]
 "11
-[v ___lwdiv@counter counter `uc  1 a 1 10 ]
+[v ___lwdiv@counter counter `uc  1 a 1 17 ]
 "7
-[v ___lwdiv@dividend dividend `ui  1 p 2 4 ]
-[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 11 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 13 ]
 "30
 } 0
 "7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
 {
 "10
-[v ___lldiv@quotient quotient `ul  1 a 4 12 ]
+[v ___lldiv@quotient quotient `ul  1 a 4 31 ]
 "11
-[v ___lldiv@counter counter `uc  1 a 1 16 ]
+[v ___lldiv@counter counter `uc  1 a 1 35 ]
 "7
-[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
-[v ___lldiv@divisor divisor `ul  1 p 4 8 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 23 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 27 ]
 "30
 } 0
-"283 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/nextion.h
+"293 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/nextion.h
 [v _LCDpageSelect LCDpageSelect `(uc  1 e 1 0 ]
 {
 [v LCDpageSelect@page page `uc  1 a 1 wreg ]
-"285
-[v LCDpageSelect@tt tt `uc  1 a 1 17 ]
-"283
+"295
+[v LCDpageSelect@tt tt `uc  1 a 1 26 ]
+"293
 [v LCDpageSelect@page page `uc  1 a 1 wreg ]
-"285
-[v LCDpageSelect@page page `uc  1 a 1 18 ]
-"297
+"295
+[v LCDpageSelect@page page `uc  1 a 1 27 ]
+"306
 } 0
-"254
+"264
 [v _waitAckFromLCD waitAckFromLCD `(uc  1 e 1 0 ]
 {
-"256
-[v waitAckFromLCD@ack ack `uc  1 a 1 4 ]
-"281
+"266
+[v waitAckFromLCD@ack ack `uc  1 a 1 11 ]
+"291
 } 0
-"17 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/usart.h
+"20 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/usart.h
 [v _RXrestart RXrestart `(v  1 e 1 0 ]
 {
-"23
+"26
 } 0
-"10
+"14
 [v _RXstopTIMER RXstopTIMER `(v  1 e 1 0 ]
 {
-"15
+"18
 } 0
-"47 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/eep.h
+"55 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/eep.h
 [v _EEsetupRead EEsetupRead `(v  1 e 1 0 ]
 {
-"49
-[v EEsetupRead@lW lW `ui  1 a 2 4 ]
-[v EEsetupRead@rW rW `ui  1 a 2 2 ]
-[v EEsetupRead@pW pW `ui  1 a 2 0 ]
-"75
+"57
+[v EEsetupRead@lW lW `ui  1 a 2 10 ]
+[v EEsetupRead@rW rW `ui  1 a 2 8 ]
+[v EEsetupRead@pW pW `ui  1 a 2 6 ]
+"84
 } 0
 "9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcsqrt.c
 [v _sqrt sqrt `(d  1 e 3 0 ]
 {
 "134
-[v sqrt@x x `d  1 a 3 43 ]
-[v sqrt@q q `d  1 a 3 40 ]
-[v sqrt@z z `d  1 a 3 36 ]
+[v sqrt@x x `d  1 a 3 53 ]
+[v sqrt@q q `d  1 a 3 50 ]
+[v sqrt@z z `d  1 a 3 46 ]
+[v sqrt@og og `d  1 a 3 43 ]
 "135
-[v sqrt@i i `uc  1 a 1 39 ]
+[v sqrt@i i `uc  1 a 1 49 ]
 "9
-[v sqrt@a a `d  1 p 3 30 ]
+[v sqrt@a a `d  1 p 3 37 ]
 "159
 } 0
 "19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 3 0 ]
 {
-[v ___ftsub@f1 f1 `f  1 p 3 24 ]
-[v ___ftsub@f2 f2 `f  1 p 3 27 ]
+[v ___ftsub@f1 f1 `f  1 p 3 31 ]
+[v ___ftsub@f2 f2 `f  1 p 3 34 ]
 "26
 } 0
 "86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
 {
 "88
-[v ___ftadd@exp1 exp1 `uc  1 a 1 23 ]
-[v ___ftadd@exp2 exp2 `uc  1 a 1 22 ]
-[v ___ftadd@sign sign `uc  1 a 1 21 ]
+[v ___ftadd@exp1 exp1 `uc  1 a 1 30 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 29 ]
+[v ___ftadd@sign sign `uc  1 a 1 28 ]
 "86
-[v ___ftadd@f1 f1 `f  1 p 3 12 ]
-[v ___ftadd@f2 f2 `f  1 p 3 15 ]
+[v ___ftadd@f1 f1 `f  1 p 3 19 ]
+[v ___ftadd@f2 f2 `f  1 p 3 22 ]
 "148
 } 0
 "62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 3 0 ]
 {
 "65
-[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 23 ]
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 29 ]
 "64
-[v ___ftmul@sign sign `uc  1 a 1 22 ]
-[v ___ftmul@exp exp `uc  1 a 1 21 ]
+[v ___ftmul@sign sign `uc  1 a 1 33 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 32 ]
+[v ___ftmul@exp exp `uc  1 a 1 28 ]
 "62
-[v ___ftmul@f1 f1 `f  1 p 3 12 ]
-[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+[v ___ftmul@f1 f1 `f  1 p 3 19 ]
+[v ___ftmul@f2 f2 `f  1 p 3 22 ]
 "157
 } 0
-"32 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/eep.h
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 11 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 14 ]
+"13
+} 0
+"41 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/eep.h
 [v _readEEPROM16 readEEPROM16 `(ui  1 e 2 0 ]
 {
 [v readEEPROM16@addr addr `uc  1 a 1 wreg ]
-"34
-[v readEEPROM16@ee ee `ui  1 a 2 10 ]
-"32
+"43
+[v readEEPROM16@ee ee `ui  1 a 2 17 ]
+"41
 [v readEEPROM16@addr addr `uc  1 a 1 wreg ]
-"35
-[v readEEPROM16@addr addr `uc  1 a 1 12 ]
-"37
+"44
+[v readEEPROM16@addr addr `uc  1 a 1 19 ]
+"46
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 19 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 11 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 15 ]
+"129
 } 0
 "35 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lltoft.c
 [v ___lltoft __lltoft `(f  1 e 3 0 ]
 {
 "37
-[v ___lltoft@exp exp `uc  1 a 1 20 ]
+[v ___lltoft@exp exp `uc  1 a 1 31 ]
 "35
-[v ___lltoft@c c `ul  1 p 4 12 ]
+[v ___lltoft@c c `ul  1 p 4 23 ]
 "46
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 11 ]
+[v ___ftpack@exp exp `uc  1 p 1 14 ]
+[v ___ftpack@sign sign `uc  1 p 1 15 ]
+"86
 } 0
 "44 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fttol.c
 [v ___fttol __fttol `(l  1 e 4 0 ]
 {
 "47
-[v ___fttol@lval lval `ul  1 a 4 56 ]
+[v ___fttol@lval lval `ul  1 a 4 1 ]
 "46
-[v ___fttol@exp1 exp1 `uc  1 a 1 60 ]
-[v ___fttol@sign1 sign1 `uc  1 a 1 55 ]
+[v ___fttol@exp1 exp1 `uc  1 a 1 5 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 0 ]
 "44
-[v ___fttol@f1 f1 `f  1 p 3 46 ]
+[v ___fttol@f1 f1 `f  1 p 3 56 ]
 "73
 } 0
-"77 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/eep.h
+"86 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/eep.h
 [v _EEmbandRead EEmbandRead `(v  1 e 1 0 ]
 {
-"82
+"91
 } 0
-"2
+"6
 [v _readEEPROM readEEPROM `(uc  1 e 1 0 ]
 {
 [v readEEPROM@addr addr `uc  1 a 1 wreg ]
 [v readEEPROM@addr addr `uc  1 a 1 wreg ]
-"4
-[v readEEPROM@addr addr `uc  1 a 1 4 ]
-"12
-} 0
-"79 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
-[v _Beep Beep `(v  1 e 1 0 ]
-{
-"84
-} 0
-"199
-[v _ProtectCheck ProtectCheck `(v  1 e 1 0 ]
-{
-"201
-[v ProtectCheck@bp bp `uc  1 s 1 bp ]
-"202
-[v ProtectCheck@bpt bpt `ui  1 s 2 bpt ]
-[v ProtectCheck@beepPer beepPer `ui  1 s 2 beepPer ]
-"254
-} 0
-"86
-[v _SwitchOFF SwitchOFF `(v  1 e 1 0 ]
-{
-"94
-} 0
-"125
-[v _PTT_read PTT_read `(v  1 e 1 0 ]
-{
-"131
-} 0
-"96
-[v _PTT_ON PTT_ON `(v  1 e 1 0 ]
-{
-"111
-} 0
-"19
-[v _FreqMeasure FreqMeasure `(uc  1 e 1 0 ]
-{
-"22
-[v FreqMeasure@tmr tmr `ui  1 a 2 29 ]
-"21
-[v FreqMeasure@err err `uc  1 a 1 28 ]
-[v FreqMeasure@jj jj `uc  1 a 1 27 ]
-"58
-} 0
-"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fabs.c
-[v _fabs fabs `(d  1 e 3 0 ]
-{
-[v fabs@d d `d  1 p 3 15 ]
-"9
-} 0
-"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftneg.c
-[v ___ftneg __ftneg `(f  1 e 3 0 ]
-{
-[v ___ftneg@f1 f1 `f  1 p 3 4 ]
-"20
-} 0
-"28 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwtoft.c
-[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
-{
-[v ___lwtoft@c c `ui  1 p 2 12 ]
-"31
-} 0
-"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
-[v ___ftpack __ftpack `(f  1 e 3 0 ]
-{
-[v ___ftpack@arg arg `um  1 p 3 4 ]
-[v ___ftpack@exp exp `uc  1 p 1 7 ]
-[v ___ftpack@sign sign `uc  1 p 1 8 ]
-"86
-} 0
-"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftge.c
-[v ___ftge __ftge `(b  1 e 0 0 ]
-{
-[v ___ftge@ff1 ff1 `f  1 p 3 18 ]
-[v ___ftge@ff2 ff2 `f  1 p 3 21 ]
-"13
-} 0
-"5 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
-[v _BandDecode BandDecode `(v  1 e 1 0 ]
-{
+"8
+[v readEEPROM@addr addr `uc  1 a 1 11 ]
 "17
 } 0
-"133
+"82 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
+[v _Beep Beep `(v  1 e 1 0 ]
+{
+"87
+} 0
+"213
+[v _ProtectCheck ProtectCheck `(v  1 e 1 0 ]
+{
+"215
+[v ProtectCheck@bp bp `uc  1 s 1 bp ]
+"216
+[v ProtectCheck@bpt bpt `ui  1 s 2 bpt ]
+[v ProtectCheck@beepPer beepPer `ui  1 s 2 beepPer ]
+"271
+} 0
+"89
+[v _SwitchOFF SwitchOFF `(v  1 e 1 0 ]
+{
+"96
+} 0
+"129
+[v _PTT_read PTT_read `(v  1 e 1 0 ]
+{
+"135
+} 0
+"98
+[v _PTT_ON PTT_ON `(v  1 e 1 0 ]
+{
+"115
+} 0
+"21
+[v _FreqMeasure FreqMeasure `(uc  1 e 1 0 ]
+{
+"24
+[v FreqMeasure@tmr tmr `ui  1 a 2 19 ]
+"23
+[v FreqMeasure@err err `uc  1 a 1 18 ]
+[v FreqMeasure@jj jj `uc  1 a 1 17 ]
+"61
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 11 ]
+"9
+} 0
+"10 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
+[v _BandDecode BandDecode `(v  1 e 1 0 ]
+{
+"19
+} 0
+"137
 [v _SetBand SetBand `(v  1 e 1 0 ]
 {
-"143
+"150
 } 0
-"113
+"117
 [v _PTT_OFF PTT_OFF `(v  1 e 1 0 ]
 {
-"122
+"127
 } 0
-"299 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/nextion.h
+"308 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/nextion.h
 [v _LCDversionSend LCDversionSend `(v  1 e 1 0 ]
 {
-"301
-[v LCDversionSend@rep rep `uc  1 a 1 17 ]
-"306
+"310
+[v LCDversionSend@rep rep `uc  1 a 1 26 ]
+"316
 } 0
-"194
+"202
 [v _SendUSART SendUSART `(v  1 e 1 0 ]
 {
-"199
+"208
 } 0
-"70 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
+"73 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
 [v _DelayMs DelayMs `(v  1 e 1 0 ]
 {
 [v DelayMs@ms ms `uc  1 a 1 wreg ]
 [v DelayMs@ms ms `uc  1 a 1 wreg ]
-[v DelayMs@ms ms `uc  1 a 1 5 ]
-"77
+[v DelayMs@ms ms `uc  1 a 1 12 ]
+"80
 } 0
-"24 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/nextion.h
+"24 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/nextion.h
 [v _CreateBuffTX CreateBuffTX `(v  1 e 1 0 ]
 {
-[v CreateBuffTX@str str `*.31Cuc  1 p 1 11 ]
-[v CreateBuffTX@data data `ul  1 p 4 12 ]
-"38
+[v CreateBuffTX@str str `*.32Cuc  1 p 2 18 ]
+[v CreateBuffTX@data data `ul  1 p 4 20 ]
+"40
 } 0
-"6
+"10
 [v _ConvertNumber ConvertNumber `(v  1 e 1 0 ]
 {
-[v ConvertNumber@number number `ul  1 p 4 4 ]
-[v ConvertNumber@conv conv `*.30uc  1 p 1 8 ]
+[v ConvertNumber@number number `ul  1 p 4 11 ]
+[v ConvertNumber@conv conv `*.39uc  1 p 2 15 ]
 "21
 } 0
-"60 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/digital.h
+"63 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/digital.h
 [v _DelayS DelayS `(v  1 e 1 0 ]
 {
 [v DelayS@sec sec `uc  1 a 1 wreg ]
 [v DelayS@sec sec `uc  1 a 1 wreg ]
-"62
-[v DelayS@sec sec `uc  1 a 1 6 ]
-"68
+"65
+[v DelayS@sec sec `uc  1 a 1 13 ]
+"71
 } 0
-"14 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/adc.h
+"19 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/adc.h
 [v _ADCmeasure ADCmeasure `(v  1 e 1 0 ]
 {
-"30
+"37
 } 0
-"3
+"7
 [v _ADC ADC `(ui  1 e 2 0 ]
 {
 [v ADC@ch ch `uc  1 a 1 wreg ]
 [v ADC@ch ch `uc  1 a 1 wreg ]
-"5
-[v ADC@ch ch `uc  1 a 1 8 ]
-"12
-} 0
-"45 C:\DIST\_AMATEUR_\1800W\pic18f458_X_8.1_1800W/usart.h
-[v _isr isr `II(v  1 e 1 0 ]
-{
-"47
-[v isr@rx rx `uc  1 a 1 3 ]
-"79
-} 0
+"9
+[v ADC@ch ch `uc  1 a 1 15 ]
 "17
+} 0
+"46 C:\Users\VL\Desktop\2xK25_AMP_ALL_PROJECT\source\pic18f458_X_8.1/usart.h
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"48
+[v isr@rx rx `uc  1 a 1 10 ]
+"91
+} 0
+"20
 [v i2_RXrestart RXrestart `(v  1 e 1 0 ]
 {
-"23
+"26
 } 0
-"10
+"14
 [v i2_RXstopTIMER RXstopTIMER `(v  1 e 1 0 ]
 {
-"15
+"18
 } 0
-"25
+"28
 [v _RecieveError RecieveError `(v  1 e 1 0 ]
 {
-"40
+"39
+[v RecieveError@dummy dummy `VEuc  1 a 1 0 ]
+"43
 } 0
-"2
+"6
 [v _RXstartTIMER RXstartTIMER `(v  1 e 1 0 ]
 {
-"8
+"12
 } 0
